@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html class="logindiv" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+</head>
+<body class="logindiv">
+<!--<div th:if="${param.error}">-->
+<!--    <p>用户名或密码无效</p>-->
+<!--</div>-->
+<form class="logindiv"  method="post" >
+    <div style="margin-top: 20%;margin-left: 40%;">
+        <div><label> 用户名 : <input type="text" name="username"/> </label></div>
+        <div><label> 密码: <input type="password" name="password"/> </label></div>
+        <button type="submit" class="btn">登录</button>
+    </div>
+</form>
+</body>
+</html>
+<style>
+    .logindiv{
+        height: 100%;
+        width: 100%;
+    }
+</style>

@@ -1,0 +1,4 @@
+项目接口：8094
+按照要求
+/moni/serviceMess ---接口推送数据（时间和具体服务信息）存到List里
+/moni/getServiceMess----获取存在List中的数据 返回
